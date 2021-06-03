@@ -1,2 +1,2 @@
-language = "node"
+language = "bash"
 run = "npm i && npm run start"

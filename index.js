@@ -12,7 +12,6 @@ cloudinary.uploader.upload('./banana.jpg', {
 })
   .then(result => {
     console.log(result)
-    open(result.secure_url)
   })
   .catch(error => {
     console.log(error)
