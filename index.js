@@ -1,3 +1,5 @@
+// Enter a CLD_URL environment variable
+
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
