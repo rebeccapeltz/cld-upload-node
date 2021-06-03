@@ -1,7 +1,6 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-
 cloudinary.uploader.upload('./banana.jpg', {
   public_id: 'banana',
   type: 'upload',
